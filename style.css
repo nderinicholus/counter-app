@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);;
+}
+
+.buttons {
+  padding: 11px 20px;
+  background-color: hsl(0, 100%, 50%);
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  border-radius: hsl(0, 47%, 48%);;
+}
+
+#counterLabel {
+  padding: 10px;
+  font-size: 2em;
+}
+
